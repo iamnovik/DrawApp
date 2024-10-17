@@ -1,0 +1,39 @@
+/* src/styles/Canvas.css */
+.canvas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .canvas-wrapper {
+    position: relative; /* Относительное позиционирование для обертки */
+    display: flex;
+    justify-content: center; /* Центрируем холсты по горизонтали */
+    align-items: center; /* Центрируем холсты по вертикали */
+  }
+  
+  canvas {
+    position: relative; /* Делаем канвас относительным */
+  }
+  
+  .clear-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  .clear-button:hover {
+    background-color: #45a049; 
+  }
+  .toolbar {
+    display: flex; 
+    flex-direction: row;
+    gap: 10px; 
+  }
+  
