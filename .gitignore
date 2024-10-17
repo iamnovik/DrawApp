@@ -1,0 +1,124 @@
+# Rider specific
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.obj
+*.exe
+*.dll
+*.pdb
+*.ipch
+*.aps
+*.ncb
+*.opendb
+*.tlog
+*.pyc
+*.pyo
+*.rbc
+*.class
+*.cache
+*.dll.config
+
+# Rider Caches
+.idea/
+.idea_modules/
+
+# Visual Studio
+.vscode/
+.vs/
+*.log
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]*/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Environment variables
+.env
+.env.*
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+sql-dump.sql
+
+# Publish Web Output
+publish/
+*.publishsettings
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Optional npm cache directory
+.npm
+
+# Yarn
+.yarn/
+.pnp.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Output directory
+dist/
+build/
+
+# Testing
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Cache files for linting
+.eslintcache
